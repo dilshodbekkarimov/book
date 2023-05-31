@@ -9,7 +9,7 @@ from book_tokenn import *
 logging.basicConfig(level=logging.INFO)
 
 
-bot = Bot(token=API_TOKEN)
+bot = Bot(token=bu yerga bot tokeni quyasiz)
 
 ###########################################################################################################################################################
 
@@ -37,7 +37,7 @@ db.create_table_products()
 
 
 
-@dp.message_handler(commands="book_add", state="*",user_id=admin)
+@dp.message_handler(commands="book_add", state="*",user_id=bu yerga admin idsi quyiladi)
 async def send_welcome(message: types.Message,  state: FSMContext):
     await message.answer("Kitobning nomini kiriting:")
     await state.set_state(StateData.name)
