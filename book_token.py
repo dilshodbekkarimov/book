@@ -1,0 +1,3 @@
+API_TOKEN = '5961209779:AAEeGSusP05ieBAtVxbr-iBEEFfN3o_r6ww'
+
+admin = 878045048

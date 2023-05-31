@@ -1,0 +1,5 @@
+venv
+_pycache_
+books.db
+state.py
+testt.py
