@@ -2,9 +2,9 @@
 import logging
 from aiogram.dispatcher.filters import Text
 from aiogram import Bot, Dispatcher, executor, types
-from baza_book import * 
-from buttan import *
-from book_token import *
+from book_baza import * 
+from book_button import *
+from book_tokenn import *
 
 logging.basicConfig(level=logging.INFO)
 
@@ -24,7 +24,7 @@ bot = Bot(token=API_TOKEN)
 
 from aiogram.contrib.fsm_storage.memory import  MemoryStorage # vaqtinchalik xotra uchun 
 from aiogram.dispatcher import FSMContext #state uchun 
-from state import StateData
+from book_state import StateData
 
 
 

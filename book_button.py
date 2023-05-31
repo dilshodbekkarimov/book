@@ -1,7 +1,7 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardButton, InlineKeyboardMarkup
 import asyncio
-from books01 import db 
-from baza_book import Database
+from book_main import db 
+from book_baza import Database
 #oddiy usul 
 
 
